@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - print possible combination 0-9
  *
@@ -7,6 +8,7 @@
 int main(void)
 {
 	int i;
+
 	for (i = '0'; i <= '9'; i++)
 	{
 		putchar(i);
