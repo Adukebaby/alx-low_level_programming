@@ -14,16 +14,19 @@ int largest_number(int a, int b, int c)
 
 	if (a > b && a > c)
 	{
-	largest = a;
+		largest = a;
 	}
 	else if (b > c)
 	{
-	largest = b;
+		largest = c;
+	}
+	else if (b > c)
+	{
+		largest = b;
 	}
 	else
 	{
-	largest = c;
+		largest = c;
 	}
-
 	return (largest);
-
+}
