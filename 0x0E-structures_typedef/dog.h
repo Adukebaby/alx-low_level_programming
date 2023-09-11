@@ -10,7 +10,7 @@
 	 *
 	 * Description: Longer description
 	 */
-	struct dog
+	int main: struct dog
 	{
 		char *name;
 		float age;
